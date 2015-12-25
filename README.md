@@ -5,7 +5,7 @@ https://angular.io/docs/js/latest/quickstart.html
 ## 运行说明
 假定已经有node环境
 ```
-git clone 
+git clone https://github.com/1329555958/angular2-quickstart.git
 cd angular2-quickstart
 npm install
 npm start
