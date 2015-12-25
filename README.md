@@ -1,31 +1,31 @@
-## ¼ò½é
-5 ·ÖÖÓ´Ó0´î½¨Ò»¸öng2ÏîÄ¿demo
+## ç®€ä»‹
+5 åˆ†é’Ÿä»0æ­å»ºä¸€ä¸ªng2é¡¹ç›®demo
 https://angular.io/docs/js/latest/quickstart.html
 
-## ¾ßÌå²½Öè
-¼Ù¶¨ÄãÒÑ¾­¾ß±¸ÁËnodejs»·¾³£»
-* ĞÂ½¨Ä¿Â¼½á¹¹
+## å…·ä½“æ­¥éª¤
+å‡å®šä½ å·²ç»å…·å¤‡äº†nodejsç¯å¢ƒï¼›
+* æ–°å»ºç›®å½•ç»“æ„
    angular2-quickstart
         |----app
         |    |----app.component.js
         |    |----boot.js
         |----index.html
         |----package.json
-* ĞŞ¸Ä[package.json](#package.json)(npm Ïà¹Ø£¬Èç¹û¿´²»¶®ÕâÀïÃæµÄÄÚÈİÇë¹Ø×¢nodejs)
-* °²×°ÒÀÀµ
-    `npm install` ÔÚpackage.jsonÍ¬¼¶Ä¿Â¼ÏÂÖ´ĞĞ£¨ÎÒ¼Ù×°Äã²»ÖªµÀÔÚÄÄÀïÖ´ĞĞ£©
-    Ö´ĞĞµÄÊ±ºò¿ÉÄÜÓĞºìÉ«×ÖÌåµÄ¾¯¸æ£¬ÎŞÊÓËüÃÇ£¬×îºó»á³É¹¦µÄ
-* ĞŞ¸Ä[app.component.js](#app.component.js)
-* ĞŞ¸Ä[boot.js](#boot.js)
-* ĞŞ¸Ä[index.html](#index.html)
+* ä¿®æ”¹[package.json](#package.json)(npm ç›¸å…³ï¼Œå¦‚æœçœ‹ä¸æ‡‚è¿™é‡Œé¢çš„å†…å®¹è¯·å…³æ³¨nodejs)
+* å®‰è£…ä¾èµ–
+    `npm install` åœ¨package.jsonåŒçº§ç›®å½•ä¸‹æ‰§è¡Œï¼ˆæˆ‘å‡è£…ä½ ä¸çŸ¥é“åœ¨å“ªé‡Œæ‰§è¡Œï¼‰
+    æ‰§è¡Œçš„æ—¶å€™å¯èƒ½æœ‰çº¢è‰²å­—ä½“çš„è­¦å‘Šï¼Œæ— è§†å®ƒä»¬ï¼Œæœ€åä¼šæˆåŠŸçš„
+* ä¿®æ”¹[app.component.js](#app.component.js)
+* ä¿®æ”¹[boot.js](#boot.js)
+* ä¿®æ”¹[index.html](#index.html)
 
-´ËÊ±Äã·¢ÏÖÄãµÄÄ¿Â¼¶à³öÁËnode_modules¼°ÏÂÃæÒ»Ğ©Ä¿Â¼£»
-ÔËĞĞ`npm start`£¬ÄãµÄÄ¬ÈÏä¯ÀÀÆ÷»á´ò¿ªÒ»¸öÒ³Ãæ£¬http://localhost:3000 ,Èç¹ûÃ»ÓĞ£¬¿ÉÒÔÁªÏµÎÒ£»
+æ­¤æ—¶ä½ å‘ç°ä½ çš„ç›®å½•å¤šå‡ºäº†node_modulesåŠä¸‹é¢ä¸€äº›ç›®å½•ï¼›
+è¿è¡Œ`npm start`ï¼Œä½ çš„é»˜è®¤æµè§ˆå™¨ä¼šæ‰“å¼€ä¸€ä¸ªé¡µé¢ï¼Œhttp://localhost:3000 ,å¦‚æœæ²¡æœ‰ï¼Œå¯ä»¥è”ç³»æˆ‘ï¼›
 
-¹§Ï²Äã£¡ÄãºÜ°ô£¬ÀÛÁË°É£¬ĞİÏ¢»á£¬ÉÔºóÎÒÃÇÔÙÏ¸ÁÄ¾ßÌåÏ¸½Ú!
+æ­å–œä½ ï¼ä½ å¾ˆæ£’ï¼Œç´¯äº†å§ï¼Œä¼‘æ¯ä¼šï¼Œç¨åæˆ‘ä»¬å†ç»†èŠå…·ä½“ç»†èŠ‚!
 
 
-##´úÂëÇåµ¥
+##ä»£ç æ¸…å•
 <code id="package.json">package.json</code>
 ```
 {
@@ -55,7 +55,7 @@ https://angular.io/docs/js/latest/quickstart.html
 (function (app) {
     app.AppComponent = ng.core
         .Component({
-            selector: '.my-app',//¼òµ¥µÄCSSÑ¡ÔñÆ÷
+            selector: '.my-app',//ç®€å•çš„CSSé€‰æ‹©å™¨
             template: '<h1>My First Angular 2 App</h1>'
         })
         .Class({
