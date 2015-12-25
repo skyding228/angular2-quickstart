@@ -13,6 +13,26 @@ npm start
 此时出现在你面前的应该是浏览器打开了http://localhost:3000
 此处应该有掌声，送给你
 
+## 模块说明
+* [systemjs](https://github.com/systemjs/systemjs)
+  一个模块加载库,可以加载css、json、image、text等；
+  可以用来将coffeescript、typescript、es6等转换为浏览器支持的低版本
+  可以通过插件渲染模板jade、handlebars、markdown、sass等
+* [es6-promise](https://github.com/jakearchibald/es6-promise)
+  This is a polyfill of the ES6 Promise.
+  一个polyfill是一段代码(或者插件),提供了那些开发者们希望浏览器原生提供支持的功能.
+* [es6-shim](https://github.com/paulmillr/es6-shim/)
+  一个shim是一个库,它将一个新的API引入到一个旧的环境中,而且仅靠旧环境中已有的手段实现.
+* [reflect-metadata](https://github.com/rbuckton/ReflectDecorators)
+  希望提供装饰器模式，俗称注解;Proposal to add Decorators to ES7, along with a prototype for an ES7 Reflection API for Decorator Metadata
+* [rxjs](https://github.com/ReactiveX/RxJS)
+  监控属性变化，功能就是Object.observe
+* [zone.js](https://github.com/angular/zone.js)
+  worker模式，类似多线程，提高性能
+* [lite-server](https://github.com/johnpapa/lite-server)
+  一个轻量级的开发服务器，可以打开浏览器，监控文件变化并自动更新，文件找不到时提供回调
+  Lightweight development only node server that serves a web app, opens it in the browser, refreshes when html or javascript change, injects CSS changes using sockets, and has a fallback page when a route is not found.
+
 ## 当然你也可以从0开始大家
 假定你已经具备了nodejs环境；
 * 新建目录结构
