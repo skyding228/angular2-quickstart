@@ -1,8 +1,19 @@
 ## 简介
-5 分钟从0搭建一个ng2项目demo
+angular2 的一个简单example
 https://angular.io/docs/js/latest/quickstart.html
 
-## 具体步骤
+## 运行说明
+假定已经有node环境
+```
+git clone 
+cd angular2-quickstart
+npm install
+npm start
+```
+此时出现在你面前的应该是浏览器打开了http://localhost:3000
+此处应该有掌声，送给你
+
+## 当然你也可以从0开始大家
 假定你已经具备了nodejs环境；
 * 新建目录结构
    angular2-quickstart
